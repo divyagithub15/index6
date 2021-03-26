@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background-image: url(../image/blackgold.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+#logo{
+    width: 13%;
+    padding-left: 50px;
+}
+#logo img{
+    width: 100%;
+    padding: 10px;
+    float: left;
+}
+#menubar{
+    background-color: black;
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    margin-top: -120px;
+}
+ul{
+    margin-left: 250px;
+    float: right;
+    margin-top: 25px;
+}
+ul li{
+    list-style: none;
+    display: inline;
+    padding: 15px;
+    font-size: 20px;
+}
+ul li a{
+    text-decoration: none;
+    color:white;
+}
+h3{
+    color: white;
+    background-color: rgb(235, 27, 27);
+    width: 190px;
+    margin-left: 560px;
+    margin-top: 120px;
+    padding: 10px;
+    border-radius: 10px;
+}
+h2{
+    color: #EFE6BE;
+    font-size: 40px;
+    font-family: Copperplate Gothic Light;
+    text-align: center;
+    padding-top: 40px;
+    text-shadow: 0 3px 3px rgb(207, 191, 97);
+}
+#content{
+    width: 80%;
+    margin-bottom: 150px;
+    margin-left: 150px;
+    /* background-color: #07080A; */
+}
+#title{
+    color: #EFE6BE;
+    font-size: 30px;
+    padding: 30px;
+    font-family: constantia;
+}
+#para{
+    color: white;
+    font-size: 18px;
+    width: 90%;
+    text-align: justify;
+    text-indent: 40px;
+    margin-left: 40px;
+    font-family: constantia;
+}
+#caption{
+    font-size: 40px;
+    margin-top: 100px;
+    text-align: center;
+    padding-bottom: 90px;
+    color: #EFE6BE;
+}
+#arrow{
+    color: white;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 30px;
+    padding: 10px;
+    background-color:#28283B;
+    border-radius: 50%;
+}
